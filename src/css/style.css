@@ -7,7 +7,40 @@
 
 /* Font Google */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
 }
 
 /* Add your code here */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 150px;
+  height: 250px;
+  border: 2px hidden #333;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 32px;
+  background-color: white;
+}
+#card-value1{
+  text-align: left;
+}
+#card-value2{
+  text-align: right;
+}
+#card-suit{
+  text-align: center;
+}
